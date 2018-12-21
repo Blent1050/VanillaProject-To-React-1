@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import Home from "./Components/Home";
 
 class App extends Component {
 
@@ -10,6 +12,8 @@ class App extends Component {
       return(
         <React.Fragment>
           <Navbar />
+          <Home/>
+          <Footer />
         </React.Fragment>
       )
     } 
@@ -17,6 +21,7 @@ class App extends Component {
       return(
         <React.Fragment>
           <Navbar />
+          <Footer />
         </React.Fragment>
 
       )
@@ -25,6 +30,7 @@ class App extends Component {
       return(
         <React.Fragment>
           <Navbar />
+          <Footer />
         </React.Fragment>
       )
     }
@@ -32,6 +38,7 @@ class App extends Component {
       return(
         <React.Fragment>
           <Navbar />
+          <Footer />
         </React.Fragment>
       )
     }

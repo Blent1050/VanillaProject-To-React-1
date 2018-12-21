@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import LambdaLogo from "/Users/Brandon/Documents/Projects/lambdasite/src/img/lambda-black.png"
+import LambdaLogo from "/Users/brandonlent/Documents/Projects/VanillaProject-To-React-1/src/img/lambda-black.png"
 
 class Navbar extends React.Component{
     render(){
