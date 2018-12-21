@@ -1,12 +1,14 @@
 import React from "react";
 
+import Jumbo from "../img/jumbo.jpg"
+
 
 class Home extends React.Component{
     render(){
         return(
             <React.Fragment>
                 <section className="top-content">
-                    <img src="img/jumbo.jpg" alt="Snapshot of cars on the highway."/>
+                    <img src={Jumbo} alt="Snapshot of cars on the highway."/>
                     <div className="text-container">
                         <h2>The Future</h2>
                         <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
