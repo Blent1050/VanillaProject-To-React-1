@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
+import About from "./Components/About";
+
 
 class App extends Component {
 
@@ -21,6 +23,7 @@ class App extends Component {
       return(
         <React.Fragment>
           <Navbar />
+          <About />
           <Footer />
         </React.Fragment>
 
