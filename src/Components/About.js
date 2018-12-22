@@ -59,7 +59,6 @@ class About extends React.Component{
                         </p>
                     </div>
                 </section>
-
             </React.Fragment>
         )
     }    
